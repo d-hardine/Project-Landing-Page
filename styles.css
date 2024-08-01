@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 800;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 16px;
+}
+
+.ul-header { 
+    font-size: 18px;
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+    font-weight: 100;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.body-1 {
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+.left-part {
+    width: 400px;
+    margin-bottom: 32px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button.sign-up {
+    color: white;
+    background: royalblue;
+}
